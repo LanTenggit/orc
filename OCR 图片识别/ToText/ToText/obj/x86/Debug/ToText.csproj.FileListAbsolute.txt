@@ -1,0 +1,34 @@
+C:\Users\Stone_W\Desktop\ToText\ToText\ToText\bin\Debug\ToText.exe
+C:\Users\Stone_W\Desktop\ToText\ToText\ToText\bin\Debug\ToText.pdb
+C:\Users\Stone_W\Desktop\ToText\ToText\ToText\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Stone_W\Desktop\ToText\ToText\ToText\obj\x86\Debug\ToText.Form1.resources
+C:\Users\Stone_W\Desktop\ToText\ToText\ToText\obj\x86\Debug\ToText.Properties.Resources.resources
+C:\Users\Stone_W\Desktop\ToText\ToText\ToText\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Stone_W\Desktop\ToText\ToText\ToText\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Stone_W\Desktop\ToText\ToText\ToText\obj\x86\Debug\ToText.exe
+C:\Users\Stone_W\Desktop\ToText\ToText\ToText\obj\x86\Debug\ToText.pdb
+C:\Users\Stone_W\Desktop\ToText\ToText\ToText\obj\x86\Debug\Interop.MODI.dll
+C:\Users\Stone_W\Desktop\ToText\ToText\ToText\obj\x86\Debug\ToText.csproj.ResolveComReference.cache
+C:\Users\Stone_W\Desktop\ToText\ToText\ToText\obj\x86\Debug\ToText.Form2.resources
+D:\用户目录\下载\OCR1\OCR 图片识别\ToText\ToText\obj\x86\Debug\ToText.csproj.ResolveComReference.cache
+D:\用户目录\下载\OCR1\OCR 图片识别\ToText\ToText\obj\x86\Debug\ToText.Form1.resources
+D:\用户目录\下载\OCR1\OCR 图片识别\ToText\ToText\obj\x86\Debug\ToText.Form2.resources
+D:\用户目录\下载\OCR1\OCR 图片识别\ToText\ToText\obj\x86\Debug\ToText.Properties.Resources.resources
+D:\用户目录\下载\OCR1\OCR 图片识别\ToText\ToText\obj\x86\Debug\ToText.csproj.GenerateResource.Cache
+D:\用户目录\下载\OCR1\OCR 图片识别\ToText\ToText\obj\x86\Debug\ToText.csproj.CoreCompileInputs.cache
+D:\用户目录\下载\OCR1\OCR 图片识别\ToText\ToText\obj\x86\Debug\ToText.exe
+D:\用户目录\下载\OCR1\OCR 图片识别\ToText\ToText\obj\x86\Debug\ToText.pdb
+D:\用户目录\下载\OCR1\OCR 图片识别\ToText\ToText\bin\Debug\ToText.exe
+D:\用户目录\下载\OCR1\OCR 图片识别\ToText\ToText\bin\Debug\ToText.pdb
+D:\用户目录\下载\OCR1\OCR 图片识别\ToText\ToText\obj\x86\Debug\ToText.csprojResolveAssemblyReference.cache
+D:\桌面\OCR1\OCR 图片识别\ToText\ToText\bin\Debug\ToText.exe
+D:\桌面\OCR1\OCR 图片识别\ToText\ToText\bin\Debug\ToText.pdb
+D:\桌面\OCR1\OCR 图片识别\ToText\ToText\obj\x86\Debug\ToText.csprojResolveAssemblyReference.cache
+D:\桌面\OCR1\OCR 图片识别\ToText\ToText\obj\x86\Debug\ToText.csproj.ResolveComReference.cache
+D:\桌面\OCR1\OCR 图片识别\ToText\ToText\obj\x86\Debug\ToText.Form1.resources
+D:\桌面\OCR1\OCR 图片识别\ToText\ToText\obj\x86\Debug\ToText.Form2.resources
+D:\桌面\OCR1\OCR 图片识别\ToText\ToText\obj\x86\Debug\ToText.Properties.Resources.resources
+D:\桌面\OCR1\OCR 图片识别\ToText\ToText\obj\x86\Debug\ToText.csproj.GenerateResource.Cache
+D:\桌面\OCR1\OCR 图片识别\ToText\ToText\obj\x86\Debug\ToText.csproj.CoreCompileInputs.cache
+D:\桌面\OCR1\OCR 图片识别\ToText\ToText\obj\x86\Debug\ToText.exe
+D:\桌面\OCR1\OCR 图片识别\ToText\ToText\obj\x86\Debug\ToText.pdb
