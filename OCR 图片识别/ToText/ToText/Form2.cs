@@ -21,32 +21,32 @@ namespace ToText
         // 点击“转换”事件
         private void button1_Click(object sender, EventArgs e)
         {
-            //StringBuilder sb = new StringBuilder();
-            //string img_Path = txt_imgpath.Text.Trim();  // 图片地址
-            //if (String.IsNullOrEmpty(img_Path))
-            //{
-            //    MessageBox.Show("请先输入图片地址！");
-            //    return;
-            //}
-            //try
-            //{
-            //    MODI.Document doc = new MODI.Document();
-            //    doc.Create(img_Path);
-            //    MODI.Image image;
-            //    MODI.Layout layout;
-            //    doc.OCR(GetLanuageType(cmb_languagetype.SelectedValue.ToString()), true, true);  // 识别文字类型
-            //    for (int i = 0; i < doc.Images.Count; i++)
-            //    {
-            //        image = (MODI.Image)doc.Images[i];
-            //        layout = image.Layout;
-            //        sb.Append(layout.Text);
-            //    }
-            //    txt_result.Text = sb.ToString();
-            //}
-            //catch (Exception ex)
-            //{
-            //    txt_result.Text = "转换失败！详情：" + ex.Message;
-            //}
+            StringBuilder sb = new StringBuilder();
+            string img_Path = txt_imgpath.Text.Trim();  // 图片地址
+            if (String.IsNullOrEmpty(img_Path))
+            {
+                MessageBox.Show("请先输入图片地址！");
+                return;
+            }
+            try
+            {
+                MODI.Document doc = new MODI.Document();
+                doc.Create(img_Path);
+                MODI.Image image;
+                MODI.Layout layout;
+                doc.OCR(GetLanuageType(cmb_languagetype.SelectedValue.ToString()), true, true);  // 识别文字类型
+                for (int i = 0; i < doc.Images.Count; i++)
+                {
+                    image = (MODI.Image)doc.Images[i];
+                    layout = image.Layout;
+                    sb.Append(layout.Text);
+                }
+                txt_result.Text = sb.ToString();
+            }
+            catch (Exception ex)
+            {
+                txt_result.Text = "转换失败！详情：" + ex.Message;
+            }
         }
 
         // 浏览事件
@@ -90,56 +90,56 @@ namespace ToText
         }
 
 
-        //private MODI.MiLANGUAGES GetLanuageType(string sValue)
-        //{
-        //    switch (sValue)
-        //    {
-        //        case "2052":
-        //            return MODI.MiLANGUAGES.miLANG_CHINESE_SIMPLIFIED;
-        //        case "5":
-        //            return MODI.MiLANGUAGES.miLANG_CZECH;
-        //        case "6":
-        //            return MODI.MiLANGUAGES.miLANG_DANISH;
-        //        case "7":
-        //            return MODI.MiLANGUAGES.miLANG_GERMAN;
-        //        case "8":
-        //            return MODI.MiLANGUAGES.miLANG_GREEK;
-        //        case "9":
-        //            return MODI.MiLANGUAGES.miLANG_ENGLISH;
-        //        case "10":
-        //            return MODI.MiLANGUAGES.miLANG_SPANISH;
-        //        case "11":
-        //            return MODI.MiLANGUAGES.miLANG_FINNISH;
-        //        case "12":
-        //            return MODI.MiLANGUAGES.miLANG_FRENCH;
-        //        case "14":
-        //            return MODI.MiLANGUAGES.miLANG_HUNGARIAN;
-        //        case "16":
-        //            return MODI.MiLANGUAGES.miLANG_ITALIAN;
-        //        case "17":
-        //            return MODI.MiLANGUAGES.miLANG_JAPANESE;
-        //        case "18":
-        //            return MODI.MiLANGUAGES.miLANG_KOREAN;
-        //        case "19":
-        //            return MODI.MiLANGUAGES.miLANG_DUTCH;
-        //        case "20":
-        //            return MODI.MiLANGUAGES.miLANG_NORWEGIAN;
-        //        case "21":
-        //            return MODI.MiLANGUAGES.miLANG_POLISH;
-        //        case "22":
-        //            return MODI.MiLANGUAGES.miLANG_PORTUGUESE;
-        //        case "25":
-        //            return MODI.MiLANGUAGES.miLANG_RUSSIAN;
-        //        case "29":
-        //            return MODI.MiLANGUAGES.miLANG_SWEDISH;
-        //        case "31":
-        //            return MODI.MiLANGUAGES.miLANG_TURKISH;
-        //        case "1028":
-        //            return MODI.MiLANGUAGES.miLANG_CHINESE_TRADITIONAL;
-        //        default:
-        //            return MODI.MiLANGUAGES.miLANG_ENGLISH;
-        //    }
-        //}
+        private MODI.MiLANGUAGES GetLanuageType(string sValue)
+        {
+            switch (sValue)
+            {
+                case "2052":
+                    return MODI.MiLANGUAGES.miLANG_CHINESE_SIMPLIFIED;
+                case "5":
+                    return MODI.MiLANGUAGES.miLANG_CZECH;
+                case "6":
+                    return MODI.MiLANGUAGES.miLANG_DANISH;
+                case "7":
+                    return MODI.MiLANGUAGES.miLANG_GERMAN;
+                case "8":
+                    return MODI.MiLANGUAGES.miLANG_GREEK;
+                case "9":
+                    return MODI.MiLANGUAGES.miLANG_ENGLISH;
+                case "10":
+                    return MODI.MiLANGUAGES.miLANG_SPANISH;
+                case "11":
+                    return MODI.MiLANGUAGES.miLANG_FINNISH;
+                case "12":
+                    return MODI.MiLANGUAGES.miLANG_FRENCH;
+                case "14":
+                    return MODI.MiLANGUAGES.miLANG_HUNGARIAN;
+                case "16":
+                    return MODI.MiLANGUAGES.miLANG_ITALIAN;
+                case "17":
+                    return MODI.MiLANGUAGES.miLANG_JAPANESE;
+                case "18":
+                    return MODI.MiLANGUAGES.miLANG_KOREAN;
+                case "19":
+                    return MODI.MiLANGUAGES.miLANG_DUTCH;
+                case "20":
+                    return MODI.MiLANGUAGES.miLANG_NORWEGIAN;
+                case "21":
+                    return MODI.MiLANGUAGES.miLANG_POLISH;
+                case "22":
+                    return MODI.MiLANGUAGES.miLANG_PORTUGUESE;
+                case "25":
+                    return MODI.MiLANGUAGES.miLANG_RUSSIAN;
+                case "29":
+                    return MODI.MiLANGUAGES.miLANG_SWEDISH;
+                case "31":
+                    return MODI.MiLANGUAGES.miLANG_TURKISH;
+                case "1028":
+                    return MODI.MiLANGUAGES.miLANG_CHINESE_TRADITIONAL;
+                default:
+                    return MODI.MiLANGUAGES.miLANG_ENGLISH;
+            }
+        }
 
     }
 }
